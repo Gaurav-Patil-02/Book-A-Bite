@@ -1,0 +1,92 @@
+
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.bg-img-current {
+  z-index: 1;
+}
+
+.bg-img-next {
+  z-index: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.dialogue-content {
+  z-index: 3;
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  max-width: 600px;
+  transition: opacity 1s ease-in-out;
+}
+
+.dialogue-content.fade-in {
+  opacity: 1;
+}
+
+.dialogue-content.fade-out {
+  opacity: 0;
+}
+
+.home-title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-top: 200px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-left: 150px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.res-btn {
+  color: white;
+  background-color: #d22b2b;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+.res-btn:hover {
+  background-color: #b12323;
+} 
